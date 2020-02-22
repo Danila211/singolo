@@ -3,7 +3,6 @@
   src: url(assets/fonts/Lato-Regular.ttf);
   src: local("assets/fonts/Lato-Regular.ttf") format(".ttf");
 }
-html,
 body {
   justify-content: center;
   font-family: "Lato", Verdana, Geneva, Tahoma, sans-serif;
@@ -188,9 +187,69 @@ li:hover {
 }
 
 .slider__bottom {
-  opacity: 1;
   position: relative;
   top: 601px;
   height: 5px;
   background-color: #ea676b;
+}
+
+.paragraph {
+  font-size: 22px;
+  margin: 0;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-left: 42px;
+  line-height: 23px;
+}
+
+.paragraph1 {
+  top: 20px;
+  margin: 0;
+  width: 939px;
+  line-height: 18px;
+  font-size: 14px;
+  padding-left: 42px;
+}
+
+.services__wrapp {
+  height: 497px;
+  color: #767e9e;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #f2f2f2;
+}
+
+.title {
+  padding-left: 40px;
+  margin: 0;
+  font-size: 12px;
+  height: 87px;
+  width: 300px;
+}
+
+.bottom_block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+p {
+  height: 54px;
+  width: 220px;
+}
+
+.image {
+  float: left;
+}
+
+h2 {
+  left: 5px;
+  font-size: 14px;
+}
+
+.services__wrapper__bottom {
+  background-color: #ffffff;
+  top: 1188px;
+  height: 7px;
 }
