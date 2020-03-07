@@ -11,36 +11,30 @@ body {
 
 h1 {
   margin: 0;
-  position: absolute;
+  position: relative;
   width: 155px;
   height: 20px;
   left: 41px;
   top: 41px;
-  font-family: Lato;
+  font-family: "Lato";
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 6px;
   display: flex;
-  align-items: center;
   color: #ffffff;
 }
 
 .header {
-  position: absolute;
-  width: 1022px;
+  width: 1020px;
   height: 98px;
-  left: calc(50% - 1022px / 2);
+  left: calc(50% - 1020px / 2);
   top: -1px;
 }
 
 .header__wrapper {
-  margin: 0;
-  position: absolute;
-  width: 1022px;
+  width: 1020px;
   height: 92px;
-  left: 0px;
-  top: 0px;
   background: #2d303a;
 }
 
@@ -58,19 +52,17 @@ span {
 }
 
 .header__navigation ul {
-  margin: 0;
-  position: absolute;
+  position: relative;
   width: 333px;
   height: 9px;
   left: 610px;
-  top: 48px;
+  top: 10px;
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
   font-size: 11px;
   line-height: 6px;
   display: inline-flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -80,7 +72,6 @@ li:first-child {
 
 li {
   color: #3c404f;
-  padding-left: 0px;
 }
 
 li:hover {
@@ -88,58 +79,50 @@ li:hover {
 }
 
 .header__bottom {
-  z-index: 1;
-  position: absolute;
-  width: 1022px;
+  position: relative;
+  width: 1020px;
   height: 9px;
-  left: 0px;
-  top: 89px;
+  top: -5px;
   background: #323746;
 }
 
 .slider {
-  position: absolute;
-  width: 1022px;
+  position: relative;
+  width: 1020px;
   height: 666px;
-  left: calc(50% - 1022px / 2);
-  top: 78px;
+  left: calc(50% - 1020px / 2);
+  top: -5px;
 }
 
 .slider__wrapper {
-  position: absolute;
-  width: 1022px;
+  width: 1020px;
   height: 603px;
-  left: 0px;
-  top: 10px;
   background: #f06c64;
 }
 
 .slider__control:hover {
+  cursor: pointer;
   opacity: 0.5;
 }
 
 .slider__control_left {
-  position: absolute;
-  width: 16px;
-  height: 27px;
+  position: relative;
   left: 43px;
-  top: 298px;
+  top: -307px;
 }
 .slider__control_right {
-  position: absolute;
-  width: 16px;
-  height: 27px;
-  left: 965px;
-  top: 298px;
+  position: relative;
+  left: 939px;
+  top: -307px;
 }
 
 .slider__phonevertical {
   z-index: 100;
-  position: absolute;
+  position: relative;
   width: 582px;
   height: 580px;
   left: 111px;
-  top: 0px;
+  top: -15px;
 }
 
 .slider__phonevertical__img {
@@ -186,7 +169,7 @@ li:hover {
   width: 580px;
   height: 580px;
   left: 361px;
-  top: 86px;
+  top: 64px;
 }
 
 .slider__phonehorizontal__img {
@@ -227,26 +210,22 @@ li:hover {
 
 .slider__bottom {
   position: absolute;
-  width: 1022px;
+  width: 1020px;
   height: 8px;
-  left: 0px;
   top: 601px;
   background: #ea676b;
 }
 .services {
-  position: absolute;
-  width: 1022px;
+  position: relative;
+  width: 1020px;
   height: 505px;
-  left: calc(50% - 1022px / 2);
-  bottom: -2px;
+  left: calc(50% - 1020px / 2);
+  bottom: 95px;
 }
 
 .services__wrapper {
-  position: absolute;
-  width: 1022px;
+  width: 1020px;
   height: 499px;
-  left: 0px;
-  top: 0px;
   background: #f2f2f2;
 }
 
@@ -259,34 +238,32 @@ li:hover {
 }
 
 .paragraph {
-  position: absolute;
+  position: relative;
   width: 286.99px;
   height: 23px;
   left: 41px;
-  top: 41px;
+  top: 70px;
   font-family: Lato;
   font-style: normal;
   font-weight: 900;
   font-size: 29.6188px;
   line-height: 18px;
   display: flex;
-  align-items: center;
   color: #666d89;
 }
 
 .paragraph1 {
-  position: absolute;
+  position: relative;
   width: 969px;
   height: 47px;
   left: 42px;
-  top: 119px;
+  top: 73px;
   font-family: Lato;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
   display: flex;
-  align-items: center;
   color: #767e9e;
 }
 
@@ -300,7 +277,7 @@ li:hover {
   padding: 8px;
   position: relative;
   left: 37px;
-  top: 222px;
+  top: 110px;
   margin: 0;
   width: 300px;
   height: 87px;
@@ -313,43 +290,40 @@ li:hover {
   background: rgba(0, 0, 0, 0.0001);
 }
 .services__wrapper__bottom {
-  position: absolute;
-  width: 1022px;
+  position: relative;
+  width: 1020px;
   height: 10px;
   left: 0px;
-  top: 495px;
+  top: 174px;
   background: #ffffff;
 }
 
 h2 {
-  position: absolute;
+  position: relative;
   width: 237px;
   height: 17px;
-  left: 80px;
-  top: -8px;
+  left: 10px;
+  top: -16px;
   font-family: Lato;
   font-style: normal;
   font-weight: 900;
   font-size: 17.7713px;
   line-height: 18px;
   display: flex;
-  align-items: center;
   color: #666d89;
 }
 
 p {
-  position: absolute;
-
+  position: relative;
   width: 230px;
   height: 54px;
-  left: 80px;
-  top: 25px;
+  left: 10px;
+  top: -20px;
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 22px;
+  line-height: 19px;
   display: flex;
-  align-items: center;
   color: #767e9e;
 }
