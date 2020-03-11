@@ -1,1 +1,1 @@
-# [singolo](https://Danila211.github.io/singolo/index.html)
+# [singolo](https://Danila211.github.io/singolo)
